@@ -340,7 +340,7 @@ body {
   padding: 60px 60px 53px 60px;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:1000px) {
   
   .product {
     flex-direction: column;
@@ -358,7 +358,7 @@ body {
   max-width: 50%;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:1000px) {
   
   .product-image {
     max-width: 100%;
