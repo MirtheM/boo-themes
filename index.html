@@ -10,9 +10,68 @@
 
 <body>
 
+  <div class="site-header-outer">
+    <div class="site-header-inner">
+      <div class="site-header-brand">
+        <div class="site-header-hamburger">
+          <img src="assets/icons/burger.svg">
+        </div>
+        <div class="site-header-logo">
+          <a href="/">
+            <img src="">
+            <span class="site-header-title">Boo! Themes</span>
+          </a>
+        </div>
+      </div>
+      <div class="site-header-nav">
+        <ul class="nav">
+          <li><a href="">About</a></li>
+          <li><a href="">Membership</a></li>
+          <li><a href="">Item 3</a></li>
+        </ul>
+      </div>
+      <div class="site-header-cta">
+        <div class="site-header-cta-list">
+          <a class="site-header-cta-login" href="{{@site.url}}/#/portal/signin">Log in</a>
+          <a class="site-header-cta-subscribe" href="{{@site.url}}/#/portal/signup">Subscribe</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="site-header-mobile">
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+          <div class="site-header-logo">
+            <a href="/">
+              <img src="">
+              <span class="site-header-title">Boo! Themes</span>
+            </a>
+          </div>
+          <div class="mobile-menu-close">
+            <img src="assets/icons/close.svg">
+          </div>
+        </div>
+        <div class="mobile-menu-nav">
+          <ul class="nav">
+            <li><a href="">Item 1</a></li>
+            <li><a href="">Item 2</a></li>
+            <li><a href="">Item 3</a></li>
+          </ul>
+        </div>
+        <div class="mobile-menu-cta">
+            <div class="mobile-menu-cta-list">
+              <a class="site-header-cta-subscribe" href="{{@site.url}}/#/portal/signup">Subscribe</a><br><br>
+              <a class="site-header-cta-login" href="{{@site.url}}/#/portal/signin">Log in</a>
+            </div>
+        </div>
+    </div>
+  </div>
+
   <div class="site-intro-outer">
     <div class="site-intro-inner">
       <h1 class="site-title">Peek-a-boo! 👋👻 We build beatifully minimalistic Ghost themes.</h1>
+      <p>Looking for a good-looking theme for your Ghost webiste?<br>Take a look around!</p>
     </div>
   </div>
 
@@ -57,6 +116,36 @@
 
     </div>
   </div>
+
+<script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous">
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="assets/js/mobile-menu.js"></script>
+<script>
+$(document).ready(function () {
+  // Mobile Menu Trigger
+  $('.gh-burger').click(function () {
+      $('body').toggleClass('gh-head-open');
+  });
+  // FitVids - Makes video embeds responsive
+  $(".gh-content").fitVids();
+});
+
+// Hide sticky header when scrolling. //
+
+  $(window).scroll(function() {
+      var scrollPosition = $(window).scrollTop();
+
+      if (scrollPosition >= 300) {
+          $('.site-header-outer').addClass('scroll-off'); 
+      } else {
+          $('.site-header-outer').removeClass('scroll-off');
+      }
+  });
+</script>
 
 </body>
 
