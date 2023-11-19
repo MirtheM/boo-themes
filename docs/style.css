@@ -145,7 +145,7 @@ body {
 }
 
 .site-header-cta-subscribe {
-  background-color: #084887;
+  background-color: #000000;
   color: #ffffff;
 }
 
@@ -299,7 +299,7 @@ body {
 
 .site-intro-inner {
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 700px;
 }
 
 .site-title {
@@ -419,7 +419,7 @@ body {
 }
 
 .product-button-buy {
-  background-color: #084887;
+  background-color: #000000;
   color: #FFFFFF;
   margin-right: 10px;
 }
