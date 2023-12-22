@@ -349,17 +349,14 @@ body {
 }
 
 .product img {
-  margin: 0 auto;
-  max-width: 100%;
-}
-
-.product img {
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 0px;
   border-right: 2px solid #ededed;
   border-top-left-radius: 6px;
   border-top-right-radius: 0px;
-  margin-bottom: -7px;
+  margin: 0 auto;
+  margin-bottom: -8px;
+  max-width: 100%;
 }
 
 @media screen and (max-width:1000px) {
