@@ -351,6 +351,8 @@ body {
 }
 
 .product img {
+  border-radius: 8px;
+  border: 1px solid #ededed;
   max-width: 100%;
 }
 
