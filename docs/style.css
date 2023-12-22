@@ -349,14 +349,13 @@ body {
 }
 
 .product img {
+  display: block;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 0px;
   border-right: 2px solid #ededed;
   border-top-left-radius: 6px;
   border-top-right-radius: 0px;
   margin: 0 auto;
-  margin-bottom: -7px;
-  max-height: 678px;
   max-width: 100%;
 }
 
@@ -369,7 +368,6 @@ body {
     border-right: none;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
-    margin-bottom: -8px;
   }
 
 }
