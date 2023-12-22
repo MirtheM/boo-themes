@@ -337,7 +337,6 @@ body {
   gap: 60px;
   justify-content: center;
   margin-bottom: 60px;
-  padding: 60px 60px 53px 60px;
 }
 
 @media screen and (max-width:1000px) {
@@ -345,7 +344,6 @@ body {
   .product {
     flex-direction: column;
     gap: 40px;
-    padding: 40px 40px 40px 40px;
   }
 
 }
@@ -369,7 +367,15 @@ body {
 }
 
 .product-info {
-  padding-bottom: 17px;
+  padding: 60px;
+}
+
+@media screen and (max-width:1000px) {
+  
+  .product-info {
+    padding: 40px 40px 40px 40px;
+  }
+
 }
 
 .product-title {
