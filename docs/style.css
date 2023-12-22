@@ -355,7 +355,8 @@ body {
   border-top-left-radius: 6px;
   border-top-right-radius: 0px;
   margin: 0 auto;
-  margin-bottom: -8px;
+  margin-bottom: -7px;
+  max-height: 678px;
   max-width: 100%;
 }
 
