@@ -380,6 +380,7 @@ body {
   
   .product-image {
     border-bottom: 2px solid #ededed;
+    border-right: none;
     max-width: 100%;
   }
 
