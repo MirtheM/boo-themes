@@ -115,6 +115,7 @@ hr {
 
 .site-header-logo img {
   border-radius: 0px;
+  display: block;
   max-height: 36px;
 }
 
